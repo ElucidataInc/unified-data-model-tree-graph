@@ -1087,8 +1087,961 @@
                   "name": "Protein quantification unit"
                 }
               ]
+            },
+            {
+              "name": "Data type",
+              "children": [
+                {
+                  "name": "Imaging",
+                  "children": [
+                    {
+                      "name": "Event ID"
+                    },
+                    {
+                      "name": "Treatment ID"
+                    },
+                    {
+                      "name": "Diagnosis ID"
+                    },
+                    {
+                      "name": "Donor ID"
+                    },
+                    {
+                      "name": "Result ID"
+                    },
+                    {
+                      "name": "Cell type"
+                    },
+                    {
+                      "name": "Percentage cell infiltration"
+                    },
+                    {
+                      "name": "Cell Count"
+                    },
+                    {
+                      "name": "Nucleus Size"
+                    },
+                    {
+                      "name": "Stain Intensity"
+                    },
+                    {
+                      "name": "Epithelium Thickness"
+                    },
+                    {
+                      "name": "Histologic type"
+                    },
+                    {
+                      "name": "Microarray co-ordinates"
+                    },
+                    {
+                      "name": "Percent cell type"
+                    },
+                    {
+                      "name": "Percent necrosis"
+                    },
+                    {
+                      "name": "Prostate chip count"
+                    },
+                    {
+                      "name": "Tissue microarray coordinates"
+                    },
+                    {
+                      "name": "Is FFPE"
+                    },
+                    {
+                      "name": "Tissue type"
+                    },
+                    {
+                      "name": "IHC score"
+                    },
+                    {
+                      "name": "Organ imaging site"
+                    },
+                    {
+                      "name": "Type of Imaging"
+                    },
+                    {
+                      "name": "Contrast agent"
+                    },
+                    {
+                      "name": "Date of scanning"
+                    },
+                    {
+                      "name": "Evidence of lesion"
+                    },
+                    {
+                      "name": "Lymph node detected"
+                    },
+                    {
+                      "name": "Region of lymph node"
+                    },
+                    {
+                      "name": "Lymph node length"
+                    },
+                    {
+                      "name": "Lymph node width"
+                    },
+                    {
+                      "name": "Rads score"
+                    },
+                    {
+                      "name": "Other abnormalities"
+                    },
+                    {
+                      "name": "CT system imaging"
+                    }
+                  ]
+                },
+                {
+                  "name": "ELISA",
+                  "children": [
+                    {
+                      "name": "Donor ID"
+                    },
+                    {
+                      "name": "Result ID"
+                    },
+                    {
+                      "name": "Event ID"
+                    },
+                    {
+                      "name": "Specimen ID"
+                    },
+                    {
+                      "name": "Analyte Accession"
+                    },
+                    {
+                      "name": "Preferred Analyte Name"
+                    },
+                    {
+                      "name": "Reported Analyte Name"
+                    },
+                    {
+                      "name": "Comments"
+                    },
+                    {
+                      "name": "Standardized Unit"
+                    },
+                    {
+                      "name": "Reported Unit"
+                    },
+                    {
+                      "name": "Preferred Value"
+                    },
+                    {
+                      "name": "Reported Value"
+                    },
+                    {
+                      "name": "Study Time Collected"
+                    },
+                    {
+                      "name": "Study Time Collected Unit"
+                    }
+                  ]
+                },
+                {
+                  "name": "Flow cytometry",
+                  "children": [
+                    {
+                      "name": "Donor ID "
+                    },
+                    {
+                      "name": "Result ID"
+                    },
+                    {
+                      "name": "Event ID"
+                    },
+                    {
+                      "name": "Specimen ID"
+                    },
+                    {
+                      "name": "Parent Population preferred"
+                    },
+                    {
+                      "name": "parent_population_reported"
+                    },
+                    {
+                      "name": "population_defnition_preferred"
+                    },
+                    {
+                      "name": "population_defnition_reported"
+                    },
+                    {
+                      "name": "population_name_preferred"
+                    },
+                    {
+                      "name": "population_name_reported"
+                    },
+                    {
+                      "name": "population_stat_unit_preferred"
+                    },
+                    {
+                      "name": "population_stat_unit_reported"
+                    },
+                    {
+                      "name": "population_statistic_preferred"
+                    },
+                    {
+                      "name": "population_statistic_reported"
+                    },
+                    {
+                      "name": "population_name_modifier"
+                    },
+                    {
+                      "name": "parent_population_modifier"
+                    },
+                    {
+                      "name": "population_marker_preferred"
+                    },
+                    {
+                      "name": "population_marker_reported"
+                    },
+                    {
+                      "name": "Estimated cell count"
+                    }
+                  ]
+                },
+                {
+                  "name": "PCR",
+                  "children": [
+                    {
+                      "name": "Donor ID"
+                    },
+                    {
+                      "name": "Result ID"
+                    },
+                    {
+                      "name": "Event ID"
+                    },
+                    {
+                      "name": "Specimen ID"
+                    },
+                    {
+                      "name": "NCBI Gene ID"
+                    },
+                    {
+                      "name": "Official Gene Name"
+                    },
+                    {
+                      "name": "Preferred Gene Symbol"
+                    },
+                    {
+                      "name": "Reported Gene Symbol"
+                    },
+                    {
+                      "name": "Preferred Unit"
+                    },
+                    {
+                      "name": "Reported Unit"
+                    },
+                    {
+                      "name": "Preferred Value"
+                    },
+                    {
+                      "name": "Reported Value"
+                    }
+                  ]
+                },
+                {
+                  "name": "Elispot",
+                  "children": [
+                    {
+                      "name": "Donor ID"
+                    },
+                    {
+                      "name": "Result ID"
+                    },
+                    {
+                      "name": "Event ID"
+                    },
+                    {
+                      "name": "Specimen ID"
+                    },
+                    {
+                      "name": "Analyte Preferred"
+                    },
+                    {
+                      "name": "Analyte Reported"
+                    },
+                    {
+                      "name": "Cell Number Preferred"
+                    },
+                    {
+                      "name": "Cell Number Reported"
+                    },
+                    {
+                      "name": "Comments"
+                    },
+                    {
+                      "name": "Spot Number Preferred"
+                    },
+                    {
+                      "name": "Spot Number Reported"
+                    },
+                    {
+                      "name": "Study Time Collected"
+                    },
+                    {
+                      "name": "Study Time Collected Unit"
+                    },
+                    {
+                      "name": "File ID"
+                    }
+                  ]
+                },
+                {
+                  "name": "Mutation",
+                  "children": [
+                    {
+                      "name": "Protocol ID"
+                    },
+                    {
+                      "name": "Event ID"
+                    },
+                    {
+                      "name": "File ID"
+                    },
+                    {
+                      "name": "Entrez_Gene_Id"
+                    },
+                    {
+                      "name": "NCBI_Build"
+                    },
+                    {
+                      "name": "Chromosome"
+                    },
+                    {
+                      "name": "Start_Position"
+                    },
+                    {
+                      "name": "End_Position"
+                    },
+                    {
+                      "name": "Strand"
+                    },
+                    {
+                      "name": "Variant_Classification"
+                    },
+                    {
+                      "name": "Variant_Type"
+                    },
+                    {
+                      "name": "Reference_Allele"
+                    },
+                    {
+                      "name": "Tumor_Seq_Allele1"
+                    },
+                    {
+                      "name": "Tumor_Seq_Allele2"
+                    },
+                    {
+                      "name": "dbSNP_RS"
+                    },
+                    {
+                      "name": "dbSNP_Val_Status"
+                    },
+                    {
+                      "name": "Mutation_Status"
+                    },
+                    {
+                      "name": "Sequencing_Phase"
+                    },
+                    {
+                      "name": "Sequence_Source"
+                    },
+                    {
+                      "name": "Validation_Method"
+                    },
+                    {
+                      "name": "Sequencer"
+                    },
+                    {
+                      "name": "HGVSc"
+                    },
+                    {
+                      "name": "HGVSp"
+                    },
+                    {
+                      "name": "HGVSp_Short"
+                    },
+                    {
+                      "name": "Transcript_ID"
+                    },
+                    {
+                      "name": "Exon_Number"
+                    },
+                    {
+                      "name": "t_depth"
+                    },
+                    {
+                      "name": "t_ref_count"
+                    },
+                    {
+                      "name": "t_alt_count"
+                    },
+                    {
+                      "name": "n_depth"
+                    },
+                    {
+                      "name": "n_ref_count"
+                    },
+                    {
+                      "name": "n_alt_count"
+                    },
+                    {
+                      "name": "Allele"
+                    },
+                    {
+                      "name": "Gene"
+                    },
+                    {
+                      "name": "Feature"
+                    },
+                    {
+                      "name": "Feature_type"
+                    },
+                    {
+                      "name": "One_Consequence"
+                    },
+                    {
+                      "name": "Consequence"
+                    },
+                    {
+                      "name": "cDNA_position"
+                    },
+                    {
+                      "name": "CDS_position"
+                    },
+                    {
+                      "name": "Protein_position"
+                    },
+                    {
+                      "name": "Amino_acids"
+                    },
+                    {
+                      "name": "Codons"
+                    },
+                    {
+                      "name": "Existing_variation"
+                    },
+                    {
+                      "name": "ALLELE_NUM"
+                    },
+                    {
+                      "name": "DISTANCE"
+                    },
+                    {
+                      "name": "TRANSCRIPT_STRAND"
+                    },
+                    {
+                      "name": "SYMBOL"
+                    },
+                    {
+                      "name": "SYMBOL_SOURCE"
+                    },
+                    {
+                      "name": "HGNC_ID"
+                    },
+                    {
+                      "name": "BIOTYPE"
+                    },
+                    {
+                      "name": "CANONICAL"
+                    },
+                    {
+                      "name": "CCDS"
+                    },
+                    {
+                      "name": "ENSP"
+                    },
+                    {
+                      "name": "SWISSPROT"
+                    },
+                    {
+                      "name": "TREMBL"
+                    },
+                    {
+                      "name": "UNIPARC"
+                    },
+                    {
+                      "name": "RefSeq"
+                    },
+                    {
+                      "name": "SIFT"
+                    },
+                    {
+                      "name": "PolyPhen"
+                    },
+                    {
+                      "name": "EXON"
+                    },
+                    {
+                      "name": "INTRON"
+                    },
+                    {
+                      "name": "DOMAINS"
+                    },
+                    {
+                      "name": "GMAF"
+                    },
+                    {
+                      "name": "AFR_MAF"
+                    },
+                    {
+                      "name": "AMR_MAF"
+                    },
+                    {
+                      "name": "ASN_MAF"
+                    },
+                    {
+                      "name": "EAS_MAF"
+                    },
+                    {
+                      "name": "EUR_MAF"
+                    },
+                    {
+                      "name": "SAS_MAF"
+                    },
+                    {
+                      "name": "AA_MAF"
+                    },
+                    {
+                      "name": "EA_MAF"
+                    },
+                    {
+                      "name": "CLIN_SIG"
+                    },
+                    {
+                      "name": "SOMATIC"
+                    },
+                    {
+                      "name": "PUBMED"
+                    },
+                    {
+                      "name": "MOTIF_NAME"
+                    },
+                    {
+                      "name": "MOTIF_POS"
+                    },
+                    {
+                      "name": "HIGH_INF_POS"
+                    },
+                    {
+                      "name": "MOTIF_SCORE_CHANGE"
+                    },
+                    {
+                      "name": "IMPACT"
+                    },
+                    {
+                      "name": "PICK"
+                    },
+                    {
+                      "name": "VARIANT_CLASS"
+                    },
+                    {
+                      "name": "TSL"
+                    },
+                    {
+                      "name": "HGVS_OFFSET"
+                    },
+                    {
+                      "name": "PHENO"
+                    },
+                    {
+                      "name": "MINIMISED"
+                    },
+                    {
+                      "name": "ExAC_AF"
+                    },
+                    {
+                      "name": "ExAC_AF_Adj"
+                    },
+                    {
+                      "name": "ExAC_AF_AFR"
+                    },
+                    {
+                      "name": "ExAC_AF_AMR"
+                    },
+                    {
+                      "name": "ExAC_AF_EAS"
+                    },
+                    {
+                      "name": "ExAC_AF_FIN"
+                    },
+                    {
+                      "name": "ExAC_AF_NFE"
+                    },
+                    {
+                      "name": "ExAC_AF_OTH"
+                    },
+                    {
+                      "name": "ExAC_AF_SAS"
+                    },
+                    {
+                      "name": "GENE_PHENO"
+                    },
+                    {
+                      "name": "FILTER"
+                    },
+                    {
+                      "name": "CONTEXT"
+                    },
+                    {
+                      "name": "src_vcf_id"
+                    },
+                    {
+                      "name": "tumor_bam_uuid"
+                    },
+                    {
+                      "name": "normal_bam_uuid"
+                    },
+                    {
+                      "name": "case_id"
+                    },
+                    {
+                      "name": "GDC_FILTER"
+                    },
+                    {
+                      "name": "COSMIC"
+                    },
+                    {
+                      "name": "MC3_Overlap"
+                    },
+                    {
+                      "name": "GDC_Validation_Status"
+                    },
+                    {
+                      "name": "GDC_Valid_Somatic"
+                    },
+                    {
+                      "name": "vcf_region"
+                    },
+                    {
+                      "name": "vcf_info"
+                    },
+                    {
+                      "name": "vcf_format"
+                    },
+                    {
+                      "name": "vcf_tumor_gt"
+                    },
+                    {
+                      "name": "vcf_normal_gt"
+                    }
+                  ]
+                },
+                {
+                  "name": "Single cell transcriptomics",
+                  "children": [
+                    {
+                      "name": "Protocol ID"
+                    },
+                    {
+                      "name": "Event ID"
+                    },
+                    {
+                      "name": "File ID"
+                    },
+                    {
+                      "name": "Total counts"
+                    },
+                    {
+                      "name": "Percentage dropouts"
+                    },
+                    {
+                      "name": "Total cells"
+                    },
+                    {
+                      "name": "Mean counts"
+                    },
+                    {
+                      "name": "Median counts"
+                    },
+                    {
+                      "name": "Gene ID"
+                    },
+                    {
+                      "name": "Gene Name"
+                    },
+                    {
+                      "name": "Ensemble ID"
+                    },
+                    {
+                      "name": "Mean"
+                    },
+                    {
+                      "name": "Highly Variable Gene"
+                    },
+                    {
+                      "name": "Mitochondrial Gene"
+                    },
+                    {
+                      "name": "Gene Info"
+                    },
+                    {
+                      "name": "Mean expression in cell type"
+                    },
+                    {
+                      "name": "Mean expression in Cluster"
+                    },
+                    {
+                      "name": "Median expression cell type"
+                    },
+                    {
+                      "name": "Median expression in Cluster"
+                    },
+                    {
+                      "name": "Mean expression in Group"
+                    },
+                    {
+                      "name": "Median expression in Group"
+                    },
+                    {
+                      "name": "GSE131685_GPL20795"
+                    }
+                  ]
+                },
+                {
+                  "name": "Single cell spatial transcriptomics",
+                  "children": [
+                    {
+                      "name": "Protocol ID"
+                    },
+                    {
+                      "name": "Event ID"
+                    },
+                    {
+                      "name": "File ID"
+                    },
+                    {
+                      "name": "Total counts"
+                    },
+                    {
+                      "name": "Percentage dropouts"
+                    },
+                    {
+                      "name": "Total cells"
+                    },
+                    {
+                      "name": "Mean counts"
+                    },
+                    {
+                      "name": "Gene ID"
+                    },
+                    {
+                      "name": "Gene Name"
+                    },
+                    {
+                      "name": "Ensemble ID"
+                    },
+                    {
+                      "name": "Mean"
+                    },
+                    {
+                      "name": "Highly variable gene"
+                    },
+                    {
+                      "name": "spatially variable gene"
+                    },
+                    {
+                      "name": "Mean expression in Spatial Domain"
+                    },
+                    {
+                      "name": "Median expression in Spatial Domain"
+                    },
+                    {
+                      "name": "Mean expression in Cluster"
+                    },
+                    {
+                      "name": "Median expression in Cluster"
+                    },
+                    {
+                      "name": "Mean expression in Annotated Region"
+                    },
+                    {
+                      "name": "Median expression in Annotated Region"
+                    },
+                    {
+                      "name": "Mitochondrial Gene"
+                    },
+                    {
+                      "name": "Gene Info"
+                    },
+                    {
+                      "name": "4739739_CID44971_Spatial_custom_processed"
+                    }
+                  ]
+                }
+              ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Protocol",
+      "children": [
+        {
+          "name": "Donor ID"
+        },
+        {
+          "name": "Project ID"
+        },
+        {
+          "name": "Protocol ID"
+        },
+        {
+          "name": "Protocol Name"
+        },
+        {
+          "name": "Protocol Type"
+        },
+        {
+          "name": "Protocol core"
+        },
+        {
+          "name": "Computational method"
+        },
+        {
+          "name": "Matrix transformation "
+        },
+        {
+          "name": "Bioinformatics software"
+        },
+        {
+          "name": "Bioinformatics software version"
+        },
+        {
+          "name": "Gene annotation version"
+        },
+        {
+          "name": "Chemistry kit"
+        },
+        {
+          "name": "Library Protocol"
+        },
+        {
+          "name": "Sampling Technique"
+        },
+        {
+          "name": "Sequencer"
+        },
+        {
+          "name": "Sequencing Technology"
+        },
+        {
+          "name": "Aggregate formation method"
+        },
+        {
+          "name": "Aggregate cell uniformity"
+        },
+        {
+          "name": "Collection method"
+        },
+        {
+          "name": "Protocol reagents"
+        },
+        {
+          "name": "Differentiation method"
+        },
+        {
+          "name": "Differentiation media"
+        },
+        {
+          "name": "Small molecules"
+        },
+        {
+          "name": "Percent target cell yield"
+        },
+        {
+          "name": "Target pathway"
+        },
+        {
+          "name": "Differentiation validation method"
+        },
+        {
+          "name": "Validation result"
+        },
+        {
+          "name": "Cellular markers"
+        },
+        {
+          "name": "Minimum size selected"
+        },
+        {
+          "name": "Maximum size selected"
+        },
+        {
+          "name": "Induction method"
+        },
+        {
+          "name": "Reprogramming factors"
+        },
+        {
+          "name": "Induction kit"
+        },
+        {
+          "name": "Pluripotency test"
+        },
+        {
+          "name": "Percent pluripotency"
+        },
+        {
+          "name": "Pluripotent vector removed"
+        },
+        {
+          "name": "Imaged slice thickness"
+        },
+        {
+          "name": "Internal tissue structures"
+        },
+        {
+          "name": "Fiducial marker"
+        },
+        {
+          "name": "Expansion factor"
+        },
+        {
+          "name": "Microscope setup description"
+        },
+        {
+          "name": "Microscopy technique"
+        },
+        {
+          "name": "Magnification"
+        },
+        {
+          "name": "Numerical aperture"
+        },
+        {
+          "name": "Immersion medium"
+        },
+        {
+          "name": "Refractive index of the immersion medium"
+        },
+        {
+          "name": "Pixel size"
+        },
+        {
+          "name": "Number of tiles"
+        },
+        {
+          "name": "Tile size X"
+        },
+        {
+          "name": "Tile size Y"
+        },
+        {
+          "name": "Z stack step size"
+        },
+        {
+          "name": "Overlapping tiles"
+        },
+        {
+          "name": "Channel"
+        },
+        {
+          "name": "Probe"
         }
       ]
     }
