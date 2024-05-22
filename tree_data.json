@@ -1,929 +1,109 @@
 {
-  "name": "root",
+  "name": "Project",
   "children": [
     {
-      "name": "Project",
+      "name": "Donor",
       "children": [
         {
-          "name": "Donor",
+          "name": "Family History",
           "children": [
             {
-              "name": "Family History",
-              "children": [
-                {
-                  "name": "Donor ID "
-                },
-                {
-                  "name": "Relationship Age at Diagnosis"
-                },
-                {
-                  "name": "Relationship gender"
-                },
-                {
-                  "name": "Relationship primary diagnosis"
-                },
-                {
-                  "name": "Relative with cancer history"
-                },
-                {
-                  "name": "Relatives with cancer history count"
-                },
-                {
-                  "name": "BRCA mutation carrier"
-                },
-                {
-                  "name": "Relative's vital status"
-                },
-                {
-                  "name": "Cause of death of relative"
-                },
-                {
-                  "name": "Relatives survival time"
-                },
-                {
-                  "name": "Family line"
-                },
-                {
-                  "name": "Date of birth of relative"
-                },
-                {
-                  "name": "Age at death of relative"
-                },
-                {
-                  "name": "Biomarkers of disease in relative"
-                },
-                {
-                  "name": "Exposure Type"
-                },
-                {
-                  "name": "Exposure Duration"
-                },
-                {
-                  "name": "Exposure Duration"
-                },
-                {
-                  "name": "Exposure Frequency"
-                }
-              ]
+              "name": "Donor ID "
             },
             {
-              "name": "Clinical History",
-              "children": [
-                {
-                  "name": "Donor ID"
-                },
-                {
-                  "name": "Clinical history id"
-                },
-                {
-                  "name": "Age at diagnosis"
-                },
-                {
-                  "name": "Date of diagnosis"
-                },
-                {
-                  "name": "Treatment for diagnosis"
-                },
-                {
-                  "name": "Start date of symptoms"
-                },
-                {
-                  "name": "End date of symptoms"
-                },
-                {
-                  "name": "Symptoms at diagnosis"
-                },
-                {
-                  "name": "Genetic disorder"
-                },
-                {
-                  "name": "Prior malignancy"
-                },
-                {
-                  "name": "Laterality of prior malignancy"
-                },
-                {
-                  "name": "Allergy status"
-                },
-                {
-                  "name": "Allergy type"
-                },
-                {
-                  "name": "Previous treatments"
-                },
-                {
-                  "name": "Failed Treatments"
-                },
-                {
-                  "name": "Treatment Switch"
-                }
-              ]
+              "name": "Relationship Age at Diagnosis"
             },
             {
-              "name": "Exposure",
-              "children": [
-                {
-                  "name": "Donor ID"
-                },
-                {
-                  "name": "Exposure ID"
-                },
-                {
-                  "name": "Event ID"
-                },
-                {
-                  "name": "Exposure Type"
-                },
-                {
-                  "name": "Exposure Duration"
-                },
-                {
-                  "name": "Exposure Duration"
-                },
-                {
-                  "name": "Exposure Frequency"
-                },
-                {
-                  "name": "Diet"
-                },
-                {
-                  "name": "Diet Duration"
-                },
-                {
-                  "name": "Exercise"
-                },
-                {
-                  "name": "Exercise Duration"
-                },
-                {
-                  "name": "Time Between Waking And First exposure"
-                },
-                {
-                  "name": "Exposure Category"
-                },
-                {
-                  "name": "Exercise frequency"
-                },
-                {
-                  "name": "Exercise intensity"
-                }
-              ]
+              "name": "Relationship gender"
             },
             {
-              "name": "Measurement",
-              "children": [
-                {
-                  "name": "Donor ID"
-                },
-                {
-                  "name": "Event ID"
-                },
-                {
-                  "name": "Measurement ID"
-                },
-                {
-                  "name": "Date of Measurement"
-                },
-                {
-                  "name": "Measurement Type"
-                },
-                {
-                  "name": "Anatomical site of Measurement"
-                },
-                {
-                  "name": "Measurement result"
-                },
-                {
-                  "name": "Measurement result unit"
-                },
-                {
-                  "name": "Reference Range"
-                }
-              ]
+              "name": "Relationship primary diagnosis"
             },
             {
-              "name": "Diagnosis",
-              "children": [
-                {
-                  "name": "Donor ID"
-                },
-                {
-                  "name": "Event ID"
-                },
-                {
-                  "name": "Diagnosis ID"
-                },
-                {
-                  "name": "Disease"
-                },
-                {
-                  "name": "Disease Type"
-                },
-                {
-                  "name": "Diagnosis Date"
-                },
-                {
-                  "name": "Age at Diagnosis"
-                },
-                {
-                  "name": "Symptoms Described"
-                },
-                {
-                  "name": "Laterality"
-                },
-                {
-                  "name": "Pathalogy Review"
-                },
-                {
-                  "name": "Pathalogic Stage"
-                },
-                {
-                  "name": "Method of Diagnosis"
-                },
-                {
-                  "name": "Morphology"
-                },
-                {
-                  "name": "Disease Classification"
-                },
-                {
-                  "name": "Classification System"
-                },
-                {
-                  "name": "Classification System Version"
-                },
-                {
-                  "name": "Disease Stage"
-                },
-                {
-                  "name": "Staging System"
-                },
-                {
-                  "name": "Staging Sytem Version"
-                },
-                {
-                  "name": "Disease Grade"
-                },
-                {
-                  "name": "Grading System"
-                },
-                {
-                  "name": "Grading Version"
-                },
-                {
-                  "name": "Disease Group"
-                },
-                {
-                  "name": "Margins involved Site"
-                },
-                {
-                  "name": "Anaplasia Present Type"
-                },
-                {
-                  "name": "Extranodal Involvement"
-                },
-                {
-                  "name": "Enneking-msts Metastasis"
-                },
-                {
-                  "name": "Enneking-msts Tumor site"
-                },
-                {
-                  "name": "Presenting symptoms"
-                },
-                {
-                  "name": "Gastric Esophageal Junction Involvement"
-                },
-                {
-                  "name": "Gleason Patterns percent"
-                },
-                {
-                  "name": "Goblet cells columnar mucosa present"
-                },
-                {
-                  "name": "International prognostic index"
-                },
-                {
-                  "name": "Ishak fibrosis score"
-                },
-                {
-                  "name": "Largest extrapelvic peritoneal focus"
-                },
-                {
-                  "name": "Lymph nodes examined status"
-                },
-                {
-                  "name": "Lymph nodes examined method"
-                },
-                {
-                  "name": "Number of lymph nodes positive"
-                },
-                {
-                  "name": "Lymph node involved site"
-                },
-                {
-                  "name": "Metastasis at diagnosis"
-                },
-                {
-                  "name": "Metastasis at diagnosis site"
-                }
-              ]
+              "name": "Relative with cancer history"
             },
             {
-              "name": "Specimen",
-              "children": [
-                {
-                  "name": "Donor ID"
-                },
-                {
-                  "name": "Diagnosis ID"
-                },
-                {
-                  "name": "Event ID"
-                },
-                {
-                  "name": "Tissue"
-                },
-                {
-                  "name": "Sampling site"
-                },
-                {
-                  "name": "Donor sample type"
-                },
-                {
-                  "name": "Growth Medium"
-                },
-                {
-                  "name": "Culture Environment"
-                },
-                {
-                  "name": "Nutritional state"
-                },
-                {
-                  "name": "Storage method"
-                },
-                {
-                  "name": "Storage duration"
-                },
-                {
-                  "name": "Storage time unit"
-                },
-                {
-                  "name": "Preservation method"
-                },
-                {
-                  "name": "Autolysis score"
-                },
-                {
-                  "name": "Gross description"
-                },
-                {
-                  "name": "Gross images"
-                },
-                {
-                  "name": "Ischemic temperature"
-                },
-                {
-                  "name": "Ischemic time"
-                },
-                {
-                  "name": "Microscopic description"
-                },
-                {
-                  "name": "Microscopic images"
-                },
-                {
-                  "name": "Postmortem interval"
-                },
-                {
-                  "name": "Section location"
-                },
-                {
-                  "name": "Bone marrow malignant cells"
-                },
-                {
-                  "name": "Percentage of tumor cells"
-                },
-                {
-                  "name": "Percentage of tumor nuclei"
-                },
-                {
-                  "name": "Prostatic chips positive count"
-                },
-                {
-                  "name": "Prostatic chips total count"
-                },
-                {
-                  "name": "Percentage of prostatic involvment"
-                },
-                {
-                  "name": "Preservation method"
-                },
-                {
-                  "name": "Specimen type"
-                },
-                {
-                  "name": "Tissue type"
-                },
-                {
-                  "name": "Tumor descriptor"
-                },
-                {
-                  "name": "Biospecimen anatomic site"
-                },
-                {
-                  "name": "Biospecimen laterality"
-                },
-                {
-                  "name": "Catalogue reference"
-                },
-                {
-                  "name": "Current weight of specimen"
-                },
-                {
-                  "name": "Days to collection"
-                },
-                {
-                  "name": "Days to sample procurement"
-                },
-                {
-                  "name": "Pathologically confirmed diagnosis"
-                },
-                {
-                  "name": "Distance normal to tumor"
-                },
-                {
-                  "name": "Distributor reference"
-                },
-                {
-                  "name": "Freezing method"
-                },
-                {
-                  "name": "Growth rate"
-                },
-                {
-                  "name": "Initial weight"
-                },
-                {
-                  "name": "Intermediate dimension"
-                },
-                {
-                  "name": "Longest dimension"
-                },
-                {
-                  "name": "Method of sample procurement"
-                },
-                {
-                  "name": "Passage count"
-                },
-                {
-                  "name": "Pathology report UUID"
-                },
-                {
-                  "name": "Sample ordinal"
-                },
-                {
-                  "name": "Shortest dimension"
-                },
-                {
-                  "name": "Time between clamping and freezing"
-                },
-                {
-                  "name": "Time between excision and freezing"
-                },
-                {
-                  "name": "Tissue collection type"
-                },
-                {
-                  "name": "Tumor code"
-                },
-                {
-                  "name": "Tumor code ID"
-                },
-                {
-                  "name": "Experiment name"
-                },
-                {
-                  "name": "Is paired end"
-                },
-                {
-                  "name": "Library name"
-                },
-                {
-                  "name": "Library selection method"
-                },
-                {
-                  "name": "Library strategy"
-                },
-                {
-                  "name": "platform"
-                },
-                {
-                  "name": "Read group name"
-                },
-                {
-                  "name": "Read length"
-                },
-                {
-                  "name": "Sequencing centre"
-                },
-                {
-                  "name": "Target capture kit"
-                },
-                {
-                  "name": "Adapter name"
-                },
-                {
-                  "name": "Adapter sequence"
-                },
-                {
-                  "name": "Base caller name"
-                },
-                {
-                  "name": "Base caller version"
-                },
-                {
-                  "name": "ChIPseq antibody"
-                },
-                {
-                  "name": "ChIPseq target"
-                },
-                {
-                  "name": "Days to sequencing"
-                },
-                {
-                  "name": "Flow cell barcode"
-                },
-                {
-                  "name": "Maximum fragment length"
-                },
-                {
-                  "name": "Mean fragment length"
-                },
-                {
-                  "name": "Minimum fragment length"
-                },
-                {
-                  "name": "Standard deviation of fragment length"
-                },
-                {
-                  "name": "Fragmentation enzyme"
-                },
-                {
-                  "name": "Includes spike-in"
-                },
-                {
-                  "name": "Instrument model"
-                },
-                {
-                  "name": "Lane number"
-                },
-                {
-                  "name": "Library preparation catalogue number"
-                },
-                {
-                  "name": "Library preparation kit name"
-                },
-                {
-                  "name": "Library preparation kit vendor"
-                },
-                {
-                  "name": "Library preparation kit version"
-                },
-                {
-                  "name": "Library stranded-ness."
-                },
-                {
-                  "name": "Multiplex barcode"
-                },
-                {
-                  "name": "Expected number of cells"
-                },
-                {
-                  "name": "RNA integrity number"
-                },
-                {
-                  "name": "Date of sequencing"
-                },
-                {
-                  "name": "Single cell library"
-                },
-                {
-                  "name": "Range of size selection"
-                },
-                {
-                  "name": "Spike-in concentration"
-                },
-                {
-                  "name": "Name of FASTA file that contains spike-in sequence"
-                },
-                {
-                  "name": "To trim adapter sequence"
-                },
-                {
-                  "name": "Creation dtetime"
-                },
-                {
-                  "name": "Portion number"
-                },
-                {
-                  "name": "Analyte type"
-                },
-                {
-                  "name": "A260/A280 ratio"
-                },
-                {
-                  "name": "Amount of specimen"
-                },
-                {
-                  "name": "Analyte quantity"
-                },
-                {
-                  "name": "Analyte volume"
-                },
-                {
-                  "name": "Analyte concentration"
-                },
-                {
-                  "name": "Experimental protocol type"
-                },
-                {
-                  "name": "Normal tumor genotype snp match"
-                },
-                {
-                  "name": "28s:16s ratio"
-                },
-                {
-                  "name": "Spectrophotometer method"
-                },
-                {
-                  "name": "Well number"
-                },
-                {
-                  "name": "Aliquot quantity"
-                },
-                {
-                  "name": "Aliquot volume"
-                },
-                {
-                  "name": "Amount of aliquot"
-                },
-                {
-                  "name": "Analyte type"
-                },
-                {
-                  "name": "Concentration of analyte"
-                },
-                {
-                  "name": "No matched normal low pass wgs"
-                },
-                {
-                  "name": "No matched normal target sequencing"
-                },
-                {
-                  "name": "No matched normal wgs"
-                },
-                {
-                  "name": "No matched normal wxs"
-                },
-                {
-                  "name": "Selected normal low pass wgs"
-                },
-                {
-                  "name": "Selected normal targeted sequencing"
-                },
-                {
-                  "name": "Selected normal wgs"
-                },
-                {
-                  "name": "Selected normal wxs"
-                },
-                {
-                  "name": "Supplier"
-                },
-                {
-                  "name": "Catalog number"
-                },
-                {
-                  "name": "Lot/batch number"
-                },
-                {
-                  "name": "Catalog URL"
-                },
-                {
-                  "name": "Cell cycle"
-                },
-                {
-                  "name": "Cell line type"
-                },
-                {
-                  "name": "Organ model"
-                },
-                {
-                  "name": "Cell morphology"
-                },
-                {
-                  "name": "Growth conditions"
-                },
-                {
-                  "name": "Percent confluency"
-                },
-                {
-                  "name": "Karyotype"
-                },
-                {
-                  "name": "Tissue"
-                },
-                {
-                  "name": "Date established"
-                },
-                {
-                  "name": "Disease"
-                },
-                {
-                  "name": "Genus species"
-                },
-                {
-                  "name": "Publication"
-                },
-                {
-                  "name": "Read Index"
-                },
-                {
-                  "name": "Library preparation ID"
-                },
-                {
-                  "name": "Fresh slicing method"
-                },
-                {
-                  "name": "Final slicing method"
-                },
-                {
-                  "name": "Time between resection and fresh slicing"
-                },
-                {
-                  "name": "Post resection interval time unit"
-                },
-                {
-                  "name": "Pre-final slice preservation method"
-                },
-                {
-                  "name": "Post final slicing interval"
-                },
-                {
-                  "name": "Post final slicing interval unit"
-                },
-                {
-                  "name": "Permeabilisation time"
-                },
-                {
-                  "name": "Permeabilisation time unit"
-                }
-              ]
+              "name": "Relatives with cancer history count"
+            },
+            {
+              "name": "BRCA mutation carrier"
+            },
+            {
+              "name": "Relative's vital status"
+            },
+            {
+              "name": "Cause of death of relative"
+            },
+            {
+              "name": "Relatives survival time"
+            },
+            {
+              "name": "Family line"
+            },
+            {
+              "name": "Date of birth of relative"
+            },
+            {
+              "name": "Age at death of relative"
+            },
+            {
+              "name": "Biomarkers of disease in relative"
+            },
+            {
+              "name": "Exposure Type"
+            },
+            {
+              "name": "Exposure Duration"
+            },
+            {
+              "name": "Exposure Duration"
+            },
+            {
+              "name": "Exposure Frequency"
             }
           ]
         },
         {
-          "name": "Experimental Design",
+          "name": "Clinical History",
           "children": [
             {
               "name": "Donor ID"
             },
             {
-              "name": "Experiment ID"
+              "name": "Clinical history id"
             },
             {
-              "name": "Experiment Type"
+              "name": "Age at diagnosis"
             },
             {
-              "name": "Protocol ID"
+              "name": "Date of diagnosis"
             },
             {
-              "name": "Project ID"
+              "name": "Treatment for diagnosis"
             },
             {
-              "name": "Total Number of Samples"
+              "name": "Start date of symptoms"
             },
             {
-              "name": "Organism"
+              "name": "End date of symptoms"
             },
             {
-              "name": "Cell Line"
+              "name": "Symptoms at diagnosis"
             },
             {
-              "name": "Comparison Groups"
+              "name": "Genetic disorder"
             },
             {
-              "name": "Genetic Modification"
+              "name": "Prior malignancy"
             },
             {
-              "name": "Hypothesis"
+              "name": "Laterality of prior malignancy"
             },
             {
-              "name": "Timecourse Value"
+              "name": "Allergy status"
             },
             {
-              "name": "Timecourse Unit"
-            },
-            {
-              "name": "Timecourse Relevance"
-            }
-          ]
-        },
-        {
-          "name": "Events",
-          "children": [
-            {
-              "name": "Project ID"
-            },
-            {
-              "name": "Donor ID"
-            },
-            {
-              "name": "Event ID"
-            },
-            {
-              "name": "Event Type"
-            }
-          ]
-        },
-        {
-          "name": "Treatment",
-          "children": [
-            {
-              "name": "Donor ID"
-            },
-            {
-              "name": "Treatment ID"
-            },
-            {
-              "name": "Event ID"
-            },
-            {
-              "name": "Treatment Name"
-            },
-            {
-              "name": "Treatment start date"
-            },
-            {
-              "name": "Treatment end date"
-            },
-            {
-              "name": "Treatment ongoing"
-            },
-            {
-              "name": "Is Primary Treatment"
-            },
-            {
-              "name": "Treatment response"
-            },
-            {
-              "name": "Treatment response criteria method"
-            },
-            {
-              "name": "Treatment type"
-            },
-            {
-              "name": "Treatment Intent"
-            },
-            {
-              "name": "Treatment setting"
-            },
-            {
-              "name": "Treatment type detail"
-            },
-            {
-              "name": "Treatment Dosage"
-            },
-            {
-              "name": "Treatment Dose Level"
-            },
-            {
-              "name": "Treatment Anatomic Site"
-            },
-            {
-              "name": "Treatment Anatomic Site Type"
-            },
-            {
-              "name": "Days per cycle of chemotherapy"
-            },
-            {
-              "name": "Number of cycles of chemotherapy "
-            },
-            {
-              "name": "Route of Administration"
-            },
-            {
-              "name": "Adverse Event list"
-            },
-            {
-              "name": "Adverse Event treatment"
-            },
-            {
-              "name": "Location reaction reported"
-            },
-            {
-              "name": "Severity reported"
+              "name": "Allergy type"
             },
             {
               "name": "Previous treatments"
@@ -933,163 +113,980 @@
             },
             {
               "name": "Treatment Switch"
-            },
-            {
-              "name": "Drug group class"
-            },
-            {
-              "name": "Brand name"
-            },
-            {
-              "name": "Generic name"
-            },
-            {
-              "name": "Treatment Chronology with Surgery"
-            },
-            {
-              "name": "Line of Treatment"
-            },
-            {
-              "name": "Response to treatment criteria method"
-            },
-            {
-              "name": "Treatment outcome"
-            },
-            {
-              "name": "Toxicity type"
-            },
-            {
-              "name": "Hematological toxicity"
-            },
-            {
-              "name": "Non-hematological toxicity"
             }
           ]
         },
         {
-          "name": "Lab Test",
+          "name": "Exposure",
           "children": [
             {
-              "name": "Donor ID "
+              "name": "Donor ID"
             },
             {
-              "name": "Result ID"
+              "name": "Exposure ID"
             },
             {
               "name": "Event ID"
             },
             {
-              "name": "Order Date"
+              "name": "Exposure Type"
             },
             {
-              "name": "Test Type "
+              "name": "Exposure Duration"
             },
             {
-              "name": "Test Date"
+              "name": "Exposure Duration"
             },
             {
-              "name": "Test Name"
+              "name": "Exposure Frequency"
+            },
+            {
+              "name": "Diet"
+            },
+            {
+              "name": "Diet Duration"
+            },
+            {
+              "name": "Exercise"
+            },
+            {
+              "name": "Exercise Duration"
+            },
+            {
+              "name": "Time Between Waking And First exposure"
+            },
+            {
+              "name": "Exposure Category"
+            },
+            {
+              "name": "Exercise frequency"
+            },
+            {
+              "name": "Exercise intensity"
+            }
+          ]
+        },
+        {
+          "name": "Measurement",
+          "children": [
+            {
+              "name": "Donor ID"
+            },
+            {
+              "name": "Event ID"
+            },
+            {
+              "name": "Measurement ID"
+            },
+            {
+              "name": "Date of Measurement"
+            },
+            {
+              "name": "Measurement Type"
+            },
+            {
+              "name": "Anatomical site of Measurement"
+            },
+            {
+              "name": "Measurement result"
+            },
+            {
+              "name": "Measurement result unit"
             },
             {
               "name": "Reference Range"
-            },
-            {
-              "name": "Interpretation"
-            },
-            {
-              "name": "Comments"
-            },
-            {
-              "name": "Panel_Name"
-            },
-            {
-              "name": "Tests_Included"
-            },
-            {
-              "name": "Panel_Description"
-            },
-            {
-              "name": "Preferred Result Unit"
-            },
-            {
-              "name": "Reported Result Unit"
-            },
-            {
-              "name": "Preferred Result Value"
-            },
-            {
-              "name": "Reported Result Value"
             }
           ]
         },
         {
-          "name": "Biomarkers",
+          "name": "Diagnosis",
           "children": [
             {
-              "name": "Donor ID "
-            },
-            {
-              "name": "Result ID"
+              "name": "Donor ID"
             },
             {
               "name": "Event ID"
-            },
-            {
-              "name": "Treatment ID"
             },
             {
               "name": "Diagnosis ID"
             },
             {
-              "name": "Biomarker ID"
+              "name": "Disease"
             },
             {
-              "name": "Biomaker status"
+              "name": "Disease Type"
             },
             {
-              "name": "Method of Biomarker detection"
+              "name": "Diagnosis Date"
             },
             {
-              "name": "Gene Name"
+              "name": "Age at Diagnosis"
             },
             {
-              "name": "Gene ID"
+              "name": "Symptoms Described"
             },
             {
-              "name": "Protein Name"
+              "name": "Laterality"
             },
             {
-              "name": "Reported Exon Abberation"
+              "name": "Pathalogy Review"
             },
             {
-              "name": "Reported ctDNA mutation"
+              "name": "Pathalogic Stage"
             },
             {
-              "name": "Quantification Value"
+              "name": "Method of Diagnosis"
             },
             {
-              "name": "Quantification Unit"
+              "name": "Morphology"
             },
             {
-              "name": "Reported Structural Rearrangements"
+              "name": "Disease Classification"
             },
             {
-              "name": "Reported Amplification"
+              "name": "Classification System"
             },
             {
-              "name": "Reported Fusion"
+              "name": "Classification System Version"
             },
             {
-              "name": "Germline Or Somatic"
+              "name": "Disease Stage"
             },
             {
-              "name": "Protein level"
+              "name": "Staging System"
             },
             {
-              "name": "Protein quantity"
+              "name": "Staging Sytem Version"
             },
             {
-              "name": "Protein quantification unit"
+              "name": "Disease Grade"
+            },
+            {
+              "name": "Grading System"
+            },
+            {
+              "name": "Grading Version"
+            },
+            {
+              "name": "Disease Group"
+            },
+            {
+              "name": "Margins involved Site"
+            },
+            {
+              "name": "Anaplasia Present Type"
+            },
+            {
+              "name": "Extranodal Involvement"
+            },
+            {
+              "name": "Enneking-msts Metastasis"
+            },
+            {
+              "name": "Enneking-msts Tumor site"
+            },
+            {
+              "name": "Presenting symptoms"
+            },
+            {
+              "name": "Gastric Esophageal Junction Involvement"
+            },
+            {
+              "name": "Gleason Patterns percent"
+            },
+            {
+              "name": "Goblet cells columnar mucosa present"
+            },
+            {
+              "name": "International prognostic index"
+            },
+            {
+              "name": "Ishak fibrosis score"
+            },
+            {
+              "name": "Largest extrapelvic peritoneal focus"
+            },
+            {
+              "name": "Lymph nodes examined status"
+            },
+            {
+              "name": "Lymph nodes examined method"
+            },
+            {
+              "name": "Number of lymph nodes positive"
+            },
+            {
+              "name": "Lymph node involved site"
+            },
+            {
+              "name": "Metastasis at diagnosis"
+            },
+            {
+              "name": "Metastasis at diagnosis site"
+            }
+          ]
+        },
+        {
+          "name": "Specimen",
+          "children": [
+            {
+              "name": "Donor ID"
+            },
+            {
+              "name": "Diagnosis ID"
+            },
+            {
+              "name": "Event ID"
+            },
+            {
+              "name": "Tissue"
+            },
+            {
+              "name": "Sampling site"
+            },
+            {
+              "name": "Donor sample type"
+            },
+            {
+              "name": "Growth Medium"
+            },
+            {
+              "name": "Culture Environment"
+            },
+            {
+              "name": "Nutritional state"
+            },
+            {
+              "name": "Storage method"
+            },
+            {
+              "name": "Storage duration"
+            },
+            {
+              "name": "Storage time unit"
+            },
+            {
+              "name": "Preservation method"
+            },
+            {
+              "name": "Autolysis score"
+            },
+            {
+              "name": "Gross description"
+            },
+            {
+              "name": "Gross images"
+            },
+            {
+              "name": "Ischemic temperature"
+            },
+            {
+              "name": "Ischemic time"
+            },
+            {
+              "name": "Microscopic description"
+            },
+            {
+              "name": "Microscopic images"
+            },
+            {
+              "name": "Postmortem interval"
+            },
+            {
+              "name": "Section location"
+            },
+            {
+              "name": "Bone marrow malignant cells"
+            },
+            {
+              "name": "Percentage of tumor cells"
+            },
+            {
+              "name": "Percentage of tumor nuclei"
+            },
+            {
+              "name": "Prostatic chips positive count"
+            },
+            {
+              "name": "Prostatic chips total count"
+            },
+            {
+              "name": "Percentage of prostatic involvment"
+            },
+            {
+              "name": "Preservation method"
+            },
+            {
+              "name": "Specimen type"
+            },
+            {
+              "name": "Tissue type"
+            },
+            {
+              "name": "Tumor descriptor"
+            },
+            {
+              "name": "Biospecimen anatomic site"
+            },
+            {
+              "name": "Biospecimen laterality"
+            },
+            {
+              "name": "Catalogue reference"
+            },
+            {
+              "name": "Current weight of specimen"
+            },
+            {
+              "name": "Days to collection"
+            },
+            {
+              "name": "Days to sample procurement"
+            },
+            {
+              "name": "Pathologically confirmed diagnosis"
+            },
+            {
+              "name": "Distance normal to tumor"
+            },
+            {
+              "name": "Distributor reference"
+            },
+            {
+              "name": "Freezing method"
+            },
+            {
+              "name": "Growth rate"
+            },
+            {
+              "name": "Initial weight"
+            },
+            {
+              "name": "Intermediate dimension"
+            },
+            {
+              "name": "Longest dimension"
+            },
+            {
+              "name": "Method of sample procurement"
+            },
+            {
+              "name": "Passage count"
+            },
+            {
+              "name": "Pathology report UUID"
+            },
+            {
+              "name": "Sample ordinal"
+            },
+            {
+              "name": "Shortest dimension"
+            },
+            {
+              "name": "Time between clamping and freezing"
+            },
+            {
+              "name": "Time between excision and freezing"
+            },
+            {
+              "name": "Tissue collection type"
+            },
+            {
+              "name": "Tumor code"
+            },
+            {
+              "name": "Tumor code ID"
+            },
+            {
+              "name": "Experiment name"
+            },
+            {
+              "name": "Is paired end"
+            },
+            {
+              "name": "Library name"
+            },
+            {
+              "name": "Library selection method"
+            },
+            {
+              "name": "Library strategy"
+            },
+            {
+              "name": "platform"
+            },
+            {
+              "name": "Read group name"
+            },
+            {
+              "name": "Read length"
+            },
+            {
+              "name": "Sequencing centre"
+            },
+            {
+              "name": "Target capture kit"
+            },
+            {
+              "name": "Adapter name"
+            },
+            {
+              "name": "Adapter sequence"
+            },
+            {
+              "name": "Base caller name"
+            },
+            {
+              "name": "Base caller version"
+            },
+            {
+              "name": "ChIPseq antibody"
+            },
+            {
+              "name": "ChIPseq target"
+            },
+            {
+              "name": "Days to sequencing"
+            },
+            {
+              "name": "Flow cell barcode"
+            },
+            {
+              "name": "Maximum fragment length"
+            },
+            {
+              "name": "Mean fragment length"
+            },
+            {
+              "name": "Minimum fragment length"
+            },
+            {
+              "name": "Standard deviation of fragment length"
+            },
+            {
+              "name": "Fragmentation enzyme"
+            },
+            {
+              "name": "Includes spike-in"
+            },
+            {
+              "name": "Instrument model"
+            },
+            {
+              "name": "Lane number"
+            },
+            {
+              "name": "Library preparation catalogue number"
+            },
+            {
+              "name": "Library preparation kit name"
+            },
+            {
+              "name": "Library preparation kit vendor"
+            },
+            {
+              "name": "Library preparation kit version"
+            },
+            {
+              "name": "Library stranded-ness."
+            },
+            {
+              "name": "Multiplex barcode"
+            },
+            {
+              "name": "Expected number of cells"
+            },
+            {
+              "name": "RNA integrity number"
+            },
+            {
+              "name": "Date of sequencing"
+            },
+            {
+              "name": "Single cell library"
+            },
+            {
+              "name": "Range of size selection"
+            },
+            {
+              "name": "Spike-in concentration"
+            },
+            {
+              "name": "Name of FASTA file that contains spike-in sequence"
+            },
+            {
+              "name": "To trim adapter sequence"
+            },
+            {
+              "name": "Creation dtetime"
+            },
+            {
+              "name": "Portion number"
+            },
+            {
+              "name": "Analyte type"
+            },
+            {
+              "name": "A260/A280 ratio"
+            },
+            {
+              "name": "Amount of specimen"
+            },
+            {
+              "name": "Analyte quantity"
+            },
+            {
+              "name": "Analyte volume"
+            },
+            {
+              "name": "Analyte concentration"
+            },
+            {
+              "name": "Experimental protocol type"
+            },
+            {
+              "name": "Normal tumor genotype snp match"
+            },
+            {
+              "name": "28s:16s ratio"
+            },
+            {
+              "name": "Spectrophotometer method"
+            },
+            {
+              "name": "Well number"
+            },
+            {
+              "name": "Aliquot quantity"
+            },
+            {
+              "name": "Aliquot volume"
+            },
+            {
+              "name": "Amount of aliquot"
+            },
+            {
+              "name": "Analyte type"
+            },
+            {
+              "name": "Concentration of analyte"
+            },
+            {
+              "name": "No matched normal low pass wgs"
+            },
+            {
+              "name": "No matched normal target sequencing"
+            },
+            {
+              "name": "No matched normal wgs"
+            },
+            {
+              "name": "No matched normal wxs"
+            },
+            {
+              "name": "Selected normal low pass wgs"
+            },
+            {
+              "name": "Selected normal targeted sequencing"
+            },
+            {
+              "name": "Selected normal wgs"
+            },
+            {
+              "name": "Selected normal wxs"
+            },
+            {
+              "name": "Supplier"
+            },
+            {
+              "name": "Catalog number"
+            },
+            {
+              "name": "Lot/batch number"
+            },
+            {
+              "name": "Catalog URL"
+            },
+            {
+              "name": "Cell cycle"
+            },
+            {
+              "name": "Cell line type"
+            },
+            {
+              "name": "Organ model"
+            },
+            {
+              "name": "Cell morphology"
+            },
+            {
+              "name": "Growth conditions"
+            },
+            {
+              "name": "Percent confluency"
+            },
+            {
+              "name": "Karyotype"
+            },
+            {
+              "name": "Tissue"
+            },
+            {
+              "name": "Date established"
+            },
+            {
+              "name": "Disease"
+            },
+            {
+              "name": "Genus species"
+            },
+            {
+              "name": "Publication"
+            },
+            {
+              "name": "Read Index"
+            },
+            {
+              "name": "Library preparation ID"
+            },
+            {
+              "name": "Fresh slicing method"
+            },
+            {
+              "name": "Final slicing method"
+            },
+            {
+              "name": "Time between resection and fresh slicing"
+            },
+            {
+              "name": "Post resection interval time unit"
+            },
+            {
+              "name": "Pre-final slice preservation method"
+            },
+            {
+              "name": "Post final slicing interval"
+            },
+            {
+              "name": "Post final slicing interval unit"
+            },
+            {
+              "name": "Permeabilisation time"
+            },
+            {
+              "name": "Permeabilisation time unit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Experiment Design",
+      "children": [
+        {
+          "name": "Donor ID"
+        },
+        {
+          "name": "Experiment ID"
+        },
+        {
+          "name": "Experiment Type"
+        },
+        {
+          "name": "Protocol ID"
+        },
+        {
+          "name": "Project ID"
+        },
+        {
+          "name": "Total Number of Samples"
+        },
+        {
+          "name": "Organism"
+        },
+        {
+          "name": "Cell Line"
+        },
+        {
+          "name": "Comparison Groups"
+        },
+        {
+          "name": "Genetic Modification"
+        },
+        {
+          "name": "Hypothesis"
+        },
+        {
+          "name": "Timecourse Value"
+        },
+        {
+          "name": "Timecourse Unit"
+        },
+        {
+          "name": "Timecourse Relevance"
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "children": [
+        {
+          "name": "Project ID"
+        },
+        {
+          "name": "Donor ID"
+        },
+        {
+          "name": "Event ID"
+        },
+        {
+          "name": "Event Type",
+          "children": [
+            {
+              "name": "Treatment",
+              "children": [
+                {
+                  "name": "Donor ID"
+                },
+                {
+                  "name": "Treatment ID"
+                },
+                {
+                  "name": "Event ID"
+                },
+                {
+                  "name": "Treatment Name"
+                },
+                {
+                  "name": "Treatment start date"
+                },
+                {
+                  "name": "Treatment end date"
+                },
+                {
+                  "name": "Treatment ongoing"
+                },
+                {
+                  "name": "Is Primary Treatment"
+                },
+                {
+                  "name": "Treatment response"
+                },
+                {
+                  "name": "Treatment response criteria method"
+                },
+                {
+                  "name": "Treatment type"
+                },
+                {
+                  "name": "Treatment Intent"
+                },
+                {
+                  "name": "Treatment setting"
+                },
+                {
+                  "name": "Treatment type detail"
+                },
+                {
+                  "name": "Treatment Dosage"
+                },
+                {
+                  "name": "Treatment Dose Level"
+                },
+                {
+                  "name": "Treatment Anatomic Site"
+                },
+                {
+                  "name": "Treatment Anatomic Site Type"
+                },
+                {
+                  "name": "Days per cycle of chemotherapy"
+                },
+                {
+                  "name": "Number of cycles of chemotherapy "
+                },
+                {
+                  "name": "Route of Administration"
+                },
+                {
+                  "name": "Adverse Event list"
+                },
+                {
+                  "name": "Adverse Event treatment"
+                },
+                {
+                  "name": "Location reaction reported"
+                },
+                {
+                  "name": "Severity reported"
+                },
+                {
+                  "name": "Previous treatments"
+                },
+                {
+                  "name": "Failed Treatments"
+                },
+                {
+                  "name": "Treatment Switch"
+                },
+                {
+                  "name": "Drug group class"
+                },
+                {
+                  "name": "Brand name"
+                },
+                {
+                  "name": "Generic name"
+                },
+                {
+                  "name": "Treatment Chronology with Surgery"
+                },
+                {
+                  "name": "Line of Treatment"
+                },
+                {
+                  "name": "Response to treatment criteria method"
+                },
+                {
+                  "name": "Treatment outcome"
+                },
+                {
+                  "name": "Toxicity type"
+                },
+                {
+                  "name": "Hematological toxicity"
+                },
+                {
+                  "name": "Non-hematological toxicity"
+                }
+              ]
+            },
+            {
+              "name": "Lab tests",
+              "children": [
+                {
+                  "name": "Donor ID "
+                },
+                {
+                  "name": "Result ID"
+                },
+                {
+                  "name": "Event ID"
+                },
+                {
+                  "name": "Order Date"
+                },
+                {
+                  "name": "Test Type "
+                },
+                {
+                  "name": "Test Date"
+                },
+                {
+                  "name": "Test Name"
+                },
+                {
+                  "name": "Reference Range"
+                },
+                {
+                  "name": "Interpretation"
+                },
+                {
+                  "name": "Comments"
+                },
+                {
+                  "name": "Panel_Name"
+                },
+                {
+                  "name": "Tests_Included"
+                },
+                {
+                  "name": "Panel_Description"
+                },
+                {
+                  "name": "Preferred Result Unit"
+                },
+                {
+                  "name": "Reported Result Unit"
+                },
+                {
+                  "name": "Preferred Result Value"
+                },
+                {
+                  "name": "Reported Result Value"
+                }
+              ]
+            },
+            {
+              "name": "Biomarkers",
+              "children": [
+                {
+                  "name": "Donor ID "
+                },
+                {
+                  "name": "Result ID"
+                },
+                {
+                  "name": "Event ID"
+                },
+                {
+                  "name": "Treatment ID"
+                },
+                {
+                  "name": "Diagnosis ID"
+                },
+                {
+                  "name": "Biomarker ID"
+                },
+                {
+                  "name": "Biomaker status"
+                },
+                {
+                  "name": "Method of Biomarker detection"
+                },
+                {
+                  "name": "Gene Name"
+                },
+                {
+                  "name": "Gene ID"
+                },
+                {
+                  "name": "Protein Name"
+                },
+                {
+                  "name": "Reported Exon Abberation"
+                },
+                {
+                  "name": "Reported ctDNA mutation"
+                },
+                {
+                  "name": "Quantification Value"
+                },
+                {
+                  "name": "Quantification Unit"
+                },
+                {
+                  "name": "Reported Structural Rearrangements"
+                },
+                {
+                  "name": "Reported Amplification"
+                },
+                {
+                  "name": "Reported Fusion"
+                },
+                {
+                  "name": "Germline Or Somatic"
+                },
+                {
+                  "name": "Protein level"
+                },
+                {
+                  "name": "Protein quantity"
+                },
+                {
+                  "name": "Protein quantification unit"
+                }
+              ]
             }
           ]
         }
