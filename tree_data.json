@@ -2,8 +2,262 @@
   "name": "Project",
   "children": [
     {
+      "name": "Core",
+      "children": [
+        {
+          "name": "Project ID"
+        },
+        {
+          "name": "Summary"
+        },
+        {
+          "name": "Overall Design"
+        },
+        {
+          "name": "Donor derived dataset"
+        },
+        {
+          "name": "Organism"
+        },
+        {
+          "name": "Cell Line"
+        },
+        {
+          "name": "Author cell type"
+        },
+        {
+          "name": "Source Link"
+        },
+        {
+          "name": "Supplementary link(s)"
+        }
+      ]
+    },
+    {
+      "name": "Publication",
+      "children": [
+        {
+          "name": "Abstract"
+        },
+        {
+          "name": "Authors"
+        },
+        {
+          "name": "Journal"
+        },
+        {
+          "name": "Publication Link"
+        },
+        {
+          "name": "Publication Title"
+        },
+        {
+          "name": "Publication Year"
+        },
+        {
+          "name": "Pubmed ID"
+        },
+        {
+          "name": "Total Number of Cells"
+        }
+      ]
+    },
+    {
+      "name": "Trial",
+      "children": [
+        {
+          "name": "Author Trial"
+        },
+        {
+          "name": "Registry Name"
+        },
+        {
+          "name": "Registry Trial Id"
+        },
+        {
+          "name": "Location"
+        },
+        {
+          "name": "Region"
+        },
+        {
+          "name": "Sponsor"
+        },
+        {
+          "name": "Trial Year"
+        },
+        {
+          "name": "Trial Design"
+        },
+        {
+          "name": "Trial Blinding"
+        },
+        {
+          "name": "Primary Purpose"
+        },
+        {
+          "name": "Primary Drug"
+        },
+        {
+          "name": "Trial Duration"
+        },
+        {
+          "name": "Trial Phase"
+        },
+        {
+          "name": "Treatment Duration"
+        },
+        {
+          "name": "Condition Studied Trial"
+        },
+        {
+          "name": "Intervention Agent"
+        },
+        {
+          "name": "Objectives"
+        },
+        {
+          "name": "Sponsoring Organization"
+        },
+        {
+          "name": "Target Enrollment"
+        },
+        {
+          "name": "Number of arms"
+        },
+        {
+          "name": "Placebo"
+        },
+        {
+          "name": "Principal Investigator"
+        },
+        {
+          "name": "Recruiting status of the trial"
+        },
+        {
+          "name": "Intervention other than trial"
+        },
+        {
+          "name": "Observational studies"
+        },
+        {
+          "name": "Funder type"
+        },
+        {
+          "name": "Study documents"
+        }
+      ]
+    },
+    {
+      "name": "Others",
+      "children": [
+        {
+          "name": "Publications"
+        },
+        {
+          "name": "HCA Bionetwork(s)"
+        },
+        {
+          "name": "INSDC project accession"
+        },
+        {
+          "name": "EGA Study/Dataset Accession(s)"
+        },
+        {
+          "name": "dbGaP Study Accession(s)"
+        },
+        {
+          "name": "GEO series accession"
+        },
+        {
+          "name": "ArrayExpress accessio"
+        },
+        {
+          "name": "INSDC study accession"
+        },
+        {
+          "name": "BioStudies accession"
+        },
+        {
+          "name": "Funding source(s)"
+        },
+        {
+          "name": "Estimated cell count"
+        },
+        {
+          "name": "Data use restriction"
+        },
+        {
+          "name": "DUOS ID"
+        }
+      ]
+    },
+    {
       "name": "Donor",
       "children": [
+        {
+          "name": "Project ID"
+        },
+        {
+          "name": "Donor ID"
+        },
+        {
+          "name": "Age"
+        },
+        {
+          "name": "Age_unit"
+        },
+        {
+          "name": "Developmental stage unit"
+        },
+        {
+          "name": "Developmental stage"
+        },
+        {
+          "name": "Gender"
+        },
+        {
+          "name": "Marital Status"
+        },
+        {
+          "name": "preMenopause cycle Type"
+        },
+        {
+          "name": "preMenopause cycle Duration"
+        },
+        {
+          "name": "Menstruation"
+        },
+        {
+          "name": "Occupation"
+        },
+        {
+          "name": "Cohort"
+        },
+        {
+          "name": "Strain characteristics"
+        },
+        {
+          "name": "Strain"
+        },
+        {
+          "name": "Country of Origin"
+        },
+        {
+          "name": "Race"
+        },
+        {
+          "name": "Ethnicity"
+        },
+        {
+          "name": "Number of Children"
+        },
+        {
+          "name": "Pregnancy"
+        },
+        {
+          "name": "Cause of Death"
+        },
         {
           "name": "Family History",
           "children": [
@@ -618,7 +872,7 @@
               "name": "To trim adapter sequence"
             },
             {
-              "name": "Creation dtetime"
+              "name": "Creation datetime"
             },
             {
               "name": "Portion number"
@@ -802,12 +1056,6 @@
           "name": "Total Number of Samples"
         },
         {
-          "name": "Organism"
-        },
-        {
-          "name": "Cell Line"
-        },
-        {
           "name": "Comparison Groups"
         },
         {
@@ -974,6 +1222,9 @@
                   "name": "Event ID"
                 },
                 {
+                  "name": "Specimen ID"
+                },
+                {
                   "name": "Order Date"
                 },
                 {
@@ -998,7 +1249,7 @@
                   "name": "Panel_Name"
                 },
                 {
-                  "name": "Tests_Included"
+                  "name": "Tests Included"
                 },
                 {
                   "name": "Panel_Description"
@@ -1102,6 +1353,9 @@
                     },
                     {
                       "name": "Diagnosis ID"
+                    },
+                    {
+                      "name": "Specimen ID"
                     },
                     {
                       "name": "Donor ID"
@@ -1400,6 +1654,9 @@
                     },
                     {
                       "name": "File ID"
+                    },
+                    {
+                      "name": "Specimen ID"
                     },
                     {
                       "name": "Entrez_Gene_Id"
@@ -1731,6 +1988,38 @@
                   ]
                 },
                 {
+                  "name": "Bulk RNASeq",
+                  "children": [
+                    {
+                      "name": "Protocol ID"
+                    },
+                    {
+                      "name": "Event ID"
+                    },
+                    {
+                      "name": "File ID"
+                    },
+                    {
+                      "name": "Gene ID"
+                    },
+                    {
+                      "name": "Gene Name"
+                    },
+                    {
+                      "name": "Ensemble ID"
+                    },
+                    {
+                      "name": "Specimen ID"
+                    },
+                    {
+                      "name": "Raw counts"
+                    },
+                    {
+                      "name": "Normalized counts"
+                    }
+                  ]
+                },
+                {
                   "name": "Single cell transcriptomics",
                   "children": [
                     {
@@ -1741,6 +2030,9 @@
                     },
                     {
                       "name": "File ID"
+                    },
+                    {
+                      "name": "Specimen ID"
                     },
                     {
                       "name": "Total counts"
@@ -1811,6 +2103,9 @@
                       "name": "File ID"
                     },
                     {
+                      "name": "Specimen ID"
+                    },
+                    {
                       "name": "Total counts"
                     },
                     {
@@ -1873,166 +2168,191 @@
       "name": "Protocol",
       "children": [
         {
-          "name": "Donor ID"
+          "name": "Core",
+          "children": [
+            {
+              "name": "Donor ID"
+            },
+            {
+              "name": "Project ID"
+            },
+            {
+              "name": "Protocol ID"
+            },
+            {
+              "name": "Protocol Name"
+            },
+            {
+              "name": "Protocol Type"
+            },
+            {
+              "name": "Protocol core"
+            }
+          ]
         },
         {
-          "name": "Project ID"
+          "name": "Analysis",
+          "children": [
+            {
+              "name": "Computational method"
+            },
+            {
+              "name": "Matrix transformation "
+            },
+            {
+              "name": "Bioinformatics software"
+            },
+            {
+              "name": "Bioinformatics software version"
+            },
+            {
+              "name": "Gene annotation version"
+            }
+          ]
         },
         {
-          "name": "Protocol ID"
+          "name": "Sequencing",
+          "children": [
+            {
+              "name": "Chemistry kit"
+            },
+            {
+              "name": "Library Protocol"
+            },
+            {
+              "name": "Sampling Technique"
+            },
+            {
+              "name": "Sequencer"
+            },
+            {
+              "name": "Sequencing Technology"
+            }
+          ]
         },
         {
-          "name": "Protocol Name"
+          "name": "Sample Collection",
+          "children": [
+            {
+              "name": "Aggregate formation method"
+            },
+            {
+              "name": "Aggregate cell uniformity"
+            },
+            {
+              "name": "Collection method"
+            },
+            {
+              "name": "Protocol reagents"
+            },
+            {
+              "name": "Differentiation method"
+            },
+            {
+              "name": "Differentiation media"
+            },
+            {
+              "name": "Small molecules"
+            },
+            {
+              "name": "Percent target cell yield"
+            },
+            {
+              "name": "Target pathway"
+            },
+            {
+              "name": "Differentiation validation method"
+            },
+            {
+              "name": "Validation result"
+            },
+            {
+              "name": "Cellular markers"
+            },
+            {
+              "name": "Minimum size selected"
+            },
+            {
+              "name": "Maximum size selected"
+            },
+            {
+              "name": "Induction method"
+            },
+            {
+              "name": "Reprogramming factors"
+            },
+            {
+              "name": "Induction kit"
+            },
+            {
+              "name": "Pluripotency test"
+            },
+            {
+              "name": "Percent pluripotency"
+            },
+            {
+              "name": "Pluripotent vector removed"
+            }
+          ]
         },
         {
-          "name": "Protocol Type"
-        },
-        {
-          "name": "Protocol core"
-        },
-        {
-          "name": "Computational method"
-        },
-        {
-          "name": "Matrix transformation "
-        },
-        {
-          "name": "Bioinformatics software"
-        },
-        {
-          "name": "Bioinformatics software version"
-        },
-        {
-          "name": "Gene annotation version"
-        },
-        {
-          "name": "Chemistry kit"
-        },
-        {
-          "name": "Library Protocol"
-        },
-        {
-          "name": "Sampling Technique"
-        },
-        {
-          "name": "Sequencer"
-        },
-        {
-          "name": "Sequencing Technology"
-        },
-        {
-          "name": "Aggregate formation method"
-        },
-        {
-          "name": "Aggregate cell uniformity"
-        },
-        {
-          "name": "Collection method"
-        },
-        {
-          "name": "Protocol reagents"
-        },
-        {
-          "name": "Differentiation method"
-        },
-        {
-          "name": "Differentiation media"
-        },
-        {
-          "name": "Small molecules"
-        },
-        {
-          "name": "Percent target cell yield"
-        },
-        {
-          "name": "Target pathway"
-        },
-        {
-          "name": "Differentiation validation method"
-        },
-        {
-          "name": "Validation result"
-        },
-        {
-          "name": "Cellular markers"
-        },
-        {
-          "name": "Minimum size selected"
-        },
-        {
-          "name": "Maximum size selected"
-        },
-        {
-          "name": "Induction method"
-        },
-        {
-          "name": "Reprogramming factors"
-        },
-        {
-          "name": "Induction kit"
-        },
-        {
-          "name": "Pluripotency test"
-        },
-        {
-          "name": "Percent pluripotency"
-        },
-        {
-          "name": "Pluripotent vector removed"
-        },
-        {
-          "name": "Imaged slice thickness"
-        },
-        {
-          "name": "Internal tissue structures"
-        },
-        {
-          "name": "Fiducial marker"
-        },
-        {
-          "name": "Expansion factor"
-        },
-        {
-          "name": "Microscope setup description"
-        },
-        {
-          "name": "Microscopy technique"
-        },
-        {
-          "name": "Magnification"
-        },
-        {
-          "name": "Numerical aperture"
-        },
-        {
-          "name": "Immersion medium"
-        },
-        {
-          "name": "Refractive index of the immersion medium"
-        },
-        {
-          "name": "Pixel size"
-        },
-        {
-          "name": "Number of tiles"
-        },
-        {
-          "name": "Tile size X"
-        },
-        {
-          "name": "Tile size Y"
-        },
-        {
-          "name": "Z stack step size"
-        },
-        {
-          "name": "Overlapping tiles"
-        },
-        {
-          "name": "Channel"
-        },
-        {
-          "name": "Probe"
+          "name": "Image Preparation",
+          "children": [
+            {
+              "name": "Imaged slice thickness"
+            },
+            {
+              "name": "Internal tissue structures"
+            },
+            {
+              "name": "Fiducial marker"
+            },
+            {
+              "name": "Expansion factor"
+            },
+            {
+              "name": "Microscope setup description"
+            },
+            {
+              "name": "Microscopy technique"
+            },
+            {
+              "name": "Magnification"
+            },
+            {
+              "name": "Numerical aperture"
+            },
+            {
+              "name": "Immersion medium"
+            },
+            {
+              "name": "Refractive index of the immersion medium"
+            },
+            {
+              "name": "Pixel size"
+            },
+            {
+              "name": "Number of tiles"
+            },
+            {
+              "name": "Tile size X"
+            },
+            {
+              "name": "Tile size Y"
+            },
+            {
+              "name": "Z stack step size"
+            },
+            {
+              "name": "Overlapping tiles"
+            },
+            {
+              "name": "Channel"
+            },
+            {
+              "name": "Probe"
+            }
+          ]
         }
       ]
     }
