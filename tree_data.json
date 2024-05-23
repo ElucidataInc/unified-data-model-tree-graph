@@ -196,67 +196,72 @@
       "name": "Donor",
       "children": [
         {
-          "name": "Project ID"
-        },
-        {
-          "name": "Donor ID"
-        },
-        {
-          "name": "Age"
-        },
-        {
-          "name": "Age_unit"
-        },
-        {
-          "name": "Developmental stage unit"
-        },
-        {
-          "name": "Developmental stage"
-        },
-        {
-          "name": "Gender"
-        },
-        {
-          "name": "Marital Status"
-        },
-        {
-          "name": "preMenopause cycle Type"
-        },
-        {
-          "name": "preMenopause cycle Duration"
-        },
-        {
-          "name": "Menstruation"
-        },
-        {
-          "name": "Occupation"
-        },
-        {
-          "name": "Cohort"
-        },
-        {
-          "name": "Strain characteristics"
-        },
-        {
-          "name": "Strain"
-        },
-        {
-          "name": "Country of Origin"
-        },
-        {
-          "name": "Race"
-        },
-        {
-          "name": "Ethnicity"
-        },
-        {
-          "name": "Number of Children"
-        },
-        {
-          "name": "Pregnancy"
-        },
-        {
-          "name": "Cause of Death"
+          "name": "Core",
+          "children": [
+            {
+              "name": "Project ID"
+            },
+            {
+              "name": "Donor ID"
+            },
+            {
+              "name": "Age"
+            },
+            {
+              "name": "Age_unit"
+            },
+            {
+              "name": "Developmental stage unit"
+            },
+            {
+              "name": "Developmental stage"
+            },
+            {
+              "name": "Gender"
+            },
+            {
+              "name": "Marital Status"
+            },
+            {
+              "name": "preMenopause cycle Type"
+            },
+            {
+              "name": "preMenopause cycle Duration"
+            },
+            {
+              "name": "Menstruation"
+            },
+            {
+              "name": "Occupation"
+            },
+            {
+              "name": "Cohort"
+            },
+            {
+              "name": "Strain characteristics"
+            },
+            {
+              "name": "Strain"
+            },
+            {
+              "name": "Country of Origin"
+            },
+            {
+              "name": "Race"
+            },
+            {
+              "name": "Ethnicity"
+            },
+            {
+              "name": "Number of Children"
+            },
+            {
+              "name": "Pregnancy"
+            },
+            {
+              "name": "Cause of Death"
+            }
+          ]
         },
         {
           "name": "Family History",
@@ -584,451 +589,491 @@
           "name": "Specimen",
           "children": [
             {
-              "name": "Donor ID"
-            },
-            {
-              "name": "Diagnosis ID"
-            },
-            {
-              "name": "Event ID"
-            },
-            {
-              "name": "Tissue"
-            },
-            {
-              "name": "Sampling site"
-            },
-            {
-              "name": "Donor sample type"
-            },
-            {
-              "name": "Growth Medium"
-            },
-            {
-              "name": "Culture Environment"
-            },
-            {
-              "name": "Nutritional state"
-            },
-            {
-              "name": "Storage method"
-            },
-            {
-              "name": "Storage duration"
-            },
-            {
-              "name": "Storage time unit"
-            },
-            {
-              "name": "Preservation method"
-            },
-            {
-              "name": "Autolysis score"
-            },
-            {
-              "name": "Gross description"
-            },
-            {
-              "name": "Gross images"
-            },
-            {
-              "name": "Ischemic temperature"
-            },
-            {
-              "name": "Ischemic time"
-            },
-            {
-              "name": "Microscopic description"
-            },
-            {
-              "name": "Microscopic images"
-            },
-            {
-              "name": "Postmortem interval"
-            },
-            {
-              "name": "Section location"
-            },
-            {
-              "name": "Bone marrow malignant cells"
-            },
-            {
-              "name": "Percentage of tumor cells"
-            },
-            {
-              "name": "Percentage of tumor nuclei"
-            },
-            {
-              "name": "Prostatic chips positive count"
-            },
-            {
-              "name": "Prostatic chips total count"
-            },
-            {
-              "name": "Percentage of prostatic involvment"
-            },
-            {
-              "name": "Preservation method"
-            },
-            {
-              "name": "Specimen type"
-            },
-            {
-              "name": "Tissue type"
-            },
-            {
-              "name": "Tumor descriptor"
-            },
-            {
-              "name": "Biospecimen anatomic site"
-            },
-            {
-              "name": "Biospecimen laterality"
-            },
-            {
-              "name": "Catalogue reference"
-            },
-            {
-              "name": "Current weight of specimen"
-            },
-            {
-              "name": "Days to collection"
-            },
-            {
-              "name": "Days to sample procurement"
-            },
-            {
-              "name": "Pathologically confirmed diagnosis"
-            },
-            {
-              "name": "Distance normal to tumor"
-            },
-            {
-              "name": "Distributor reference"
-            },
-            {
-              "name": "Freezing method"
-            },
-            {
-              "name": "Growth rate"
-            },
-            {
-              "name": "Initial weight"
-            },
-            {
-              "name": "Intermediate dimension"
-            },
-            {
-              "name": "Longest dimension"
-            },
-            {
-              "name": "Method of sample procurement"
-            },
-            {
-              "name": "Passage count"
-            },
-            {
-              "name": "Pathology report UUID"
-            },
-            {
-              "name": "Sample ordinal"
-            },
-            {
-              "name": "Shortest dimension"
-            },
-            {
-              "name": "Time between clamping and freezing"
-            },
-            {
-              "name": "Time between excision and freezing"
-            },
-            {
-              "name": "Tissue collection type"
-            },
-            {
-              "name": "Tumor code"
-            },
-            {
-              "name": "Tumor code ID"
-            },
-            {
-              "name": "Experiment name"
-            },
-            {
-              "name": "Is paired end"
-            },
-            {
-              "name": "Library name"
-            },
-            {
-              "name": "Library selection method"
-            },
-            {
-              "name": "Library strategy"
-            },
-            {
-              "name": "platform"
-            },
-            {
-              "name": "Read group name"
-            },
-            {
-              "name": "Read length"
-            },
-            {
-              "name": "Sequencing centre"
-            },
-            {
-              "name": "Target capture kit"
-            },
-            {
-              "name": "Adapter name"
-            },
-            {
-              "name": "Adapter sequence"
-            },
-            {
-              "name": "Base caller name"
-            },
-            {
-              "name": "Base caller version"
-            },
-            {
-              "name": "ChIPseq antibody"
-            },
-            {
-              "name": "ChIPseq target"
-            },
-            {
-              "name": "Days to sequencing"
-            },
-            {
-              "name": "Flow cell barcode"
-            },
-            {
-              "name": "Maximum fragment length"
-            },
-            {
-              "name": "Mean fragment length"
-            },
-            {
-              "name": "Minimum fragment length"
-            },
-            {
-              "name": "Standard deviation of fragment length"
-            },
-            {
-              "name": "Fragmentation enzyme"
-            },
-            {
-              "name": "Includes spike-in"
-            },
-            {
-              "name": "Instrument model"
-            },
-            {
-              "name": "Lane number"
-            },
-            {
-              "name": "Library preparation catalogue number"
-            },
-            {
-              "name": "Library preparation kit name"
-            },
-            {
-              "name": "Library preparation kit vendor"
-            },
-            {
-              "name": "Library preparation kit version"
-            },
-            {
-              "name": "Library stranded-ness."
-            },
-            {
-              "name": "Multiplex barcode"
-            },
-            {
-              "name": "Expected number of cells"
-            },
-            {
-              "name": "RNA integrity number"
-            },
-            {
-              "name": "Date of sequencing"
-            },
-            {
-              "name": "Single cell library"
-            },
-            {
-              "name": "Range of size selection"
-            },
-            {
-              "name": "Spike-in concentration"
-            },
-            {
-              "name": "Name of FASTA file that contains spike-in sequence"
-            },
-            {
-              "name": "To trim adapter sequence"
-            },
-            {
-              "name": "Creation datetime"
-            },
-            {
-              "name": "Portion number"
-            },
-            {
-              "name": "Analyte type"
-            },
-            {
-              "name": "A260/A280 ratio"
-            },
-            {
-              "name": "Amount of specimen"
-            },
-            {
-              "name": "Analyte quantity"
-            },
-            {
-              "name": "Analyte volume"
-            },
-            {
-              "name": "Analyte concentration"
-            },
-            {
-              "name": "Experimental protocol type"
-            },
-            {
-              "name": "Normal tumor genotype snp match"
-            },
-            {
-              "name": "28s:16s ratio"
-            },
-            {
-              "name": "Spectrophotometer method"
-            },
-            {
-              "name": "Well number"
-            },
-            {
-              "name": "Aliquot quantity"
-            },
-            {
-              "name": "Aliquot volume"
-            },
-            {
-              "name": "Amount of aliquot"
-            },
-            {
-              "name": "Analyte type"
-            },
-            {
-              "name": "Concentration of analyte"
-            },
-            {
-              "name": "No matched normal low pass wgs"
-            },
-            {
-              "name": "No matched normal target sequencing"
-            },
-            {
-              "name": "No matched normal wgs"
-            },
-            {
-              "name": "No matched normal wxs"
-            },
-            {
-              "name": "Selected normal low pass wgs"
-            },
-            {
-              "name": "Selected normal targeted sequencing"
-            },
-            {
-              "name": "Selected normal wgs"
-            },
-            {
-              "name": "Selected normal wxs"
-            },
-            {
-              "name": "Supplier"
-            },
-            {
-              "name": "Catalog number"
-            },
-            {
-              "name": "Lot/batch number"
-            },
-            {
-              "name": "Catalog URL"
-            },
-            {
-              "name": "Cell cycle"
-            },
-            {
-              "name": "Cell line type"
-            },
-            {
-              "name": "Organ model"
-            },
-            {
-              "name": "Cell morphology"
-            },
-            {
-              "name": "Growth conditions"
-            },
-            {
-              "name": "Percent confluency"
-            },
-            {
-              "name": "Karyotype"
-            },
-            {
-              "name": "Tissue"
-            },
-            {
-              "name": "Date established"
-            },
-            {
-              "name": "Disease"
-            },
-            {
-              "name": "Genus species"
-            },
-            {
-              "name": "Publication"
-            },
-            {
-              "name": "Read Index"
-            },
-            {
-              "name": "Library preparation ID"
-            },
-            {
-              "name": "Fresh slicing method"
-            },
-            {
-              "name": "Final slicing method"
-            },
-            {
-              "name": "Time between resection and fresh slicing"
-            },
-            {
-              "name": "Post resection interval time unit"
-            },
-            {
-              "name": "Pre-final slice preservation method"
-            },
-            {
-              "name": "Post final slicing interval"
-            },
-            {
-              "name": "Post final slicing interval unit"
-            },
-            {
-              "name": "Permeabilisation time"
-            },
-            {
-              "name": "Permeabilisation time unit"
+              "name": "core",
+              "children": [
+                {
+                  "name": "Donor ID"
+                },
+                {
+                  "name": "Diagnosis ID"
+                },
+                {
+                  "name": "Event ID"
+                },
+                {
+                  "name": "Tissue"
+                },
+                {
+                  "name": "Sampling site"
+                },
+                {
+                  "name": "Donor sample type"
+                },
+                {
+                  "name": "Read Index"
+                },
+                {
+                  "name": "Library preparation ID"
+                }
+              ]
+            },
+            {
+              "name": "Cell-line",
+              "children": [
+                {
+                  "name": "Growth Medium"
+                },
+                {
+                  "name": "Culture Environment"
+                },
+                {
+                  "name": "Nutritional state"
+                },
+                {
+                  "name": "Storage method"
+                },
+                {
+                  "name": "Storage duration"
+                },
+                {
+                  "name": "Storage time unit"
+                },
+                {
+                  "name": "Preservation method"
+                },
+                {
+                  "name": "Autolysis score"
+                },
+                {
+                  "name": "Gross description"
+                },
+                {
+                  "name": "Gross images"
+                },
+                {
+                  "name": "Ischemic temperature"
+                },
+                {
+                  "name": "Ischemic time"
+                },
+                {
+                  "name": "Microscopic description"
+                },
+                {
+                  "name": "Microscopic images"
+                },
+                {
+                  "name": "Postmortem interval"
+                },
+                {
+                  "name": "Supplier"
+                },
+                {
+                  "name": "Catalog number"
+                },
+                {
+                  "name": "Lot/batch number"
+                },
+                {
+                  "name": "Catalog URL"
+                },
+                {
+                  "name": "Cell cycle"
+                },
+                {
+                  "name": "Cell line type"
+                },
+                {
+                  "name": "Organ model"
+                },
+                {
+                  "name": "Cell morphology"
+                },
+                {
+                  "name": "Growth conditions"
+                },
+                {
+                  "name": "Percent confluency"
+                },
+                {
+                  "name": "Karyotype"
+                },
+                {
+                  "name": "Tissue"
+                },
+                {
+                  "name": "Date established"
+                },
+                {
+                  "name": "Disease"
+                },
+                {
+                  "name": "Genus species"
+                },
+                {
+                  "name": "Publication"
+                }
+              ]
+            },
+            {
+              "name": "slide",
+              "children": [
+                {
+                  "name": "Section location"
+                },
+                {
+                  "name": "Bone marrow malignant cells"
+                },
+                {
+                  "name": "Percentage of tumor cells"
+                },
+                {
+                  "name": "Percentage of tumor nuclei"
+                },
+                {
+                  "name": "Prostatic chips positive count"
+                },
+                {
+                  "name": "Prostatic chips total count"
+                },
+                {
+                  "name": "Percentage of prostatic involvment"
+                }
+              ]
+            },
+            {
+              "name": "sample",
+              "children": [
+                {
+                  "name": "Preservation method"
+                },
+                {
+                  "name": "Specimen type"
+                },
+                {
+                  "name": "Tissue type"
+                },
+                {
+                  "name": "Tumor descriptor"
+                },
+                {
+                  "name": "Biospecimen anatomic site"
+                },
+                {
+                  "name": "Biospecimen laterality"
+                },
+                {
+                  "name": "Catalogue reference"
+                },
+                {
+                  "name": "Current weight of specimen"
+                },
+                {
+                  "name": "Days to collection"
+                },
+                {
+                  "name": "Days to sample procurement"
+                },
+                {
+                  "name": "Pathologically confirmed diagnosis"
+                },
+                {
+                  "name": "Distance normal to tumor"
+                },
+                {
+                  "name": "Distributor reference"
+                },
+                {
+                  "name": "Freezing method"
+                },
+                {
+                  "name": "Growth rate"
+                },
+                {
+                  "name": "Initial weight"
+                },
+                {
+                  "name": "Intermediate dimension"
+                },
+                {
+                  "name": "Longest dimension"
+                },
+                {
+                  "name": "Method of sample procurement"
+                },
+                {
+                  "name": "Passage count"
+                },
+                {
+                  "name": "Pathology report UUID"
+                },
+                {
+                  "name": "Sample ordinal"
+                },
+                {
+                  "name": "Shortest dimension"
+                },
+                {
+                  "name": "Time between clamping and freezing"
+                },
+                {
+                  "name": "Time between excision and freezing"
+                },
+                {
+                  "name": "Tissue collection type"
+                },
+                {
+                  "name": "Tumor code"
+                },
+                {
+                  "name": "Tumor code ID"
+                },
+                {
+                  "name": "Fresh slicing method"
+                },
+                {
+                  "name": "Final slicing method"
+                },
+                {
+                  "name": "Time between resection and fresh slicing"
+                },
+                {
+                  "name": "Post resection interval time unit"
+                },
+                {
+                  "name": "Pre-final slice preservation method"
+                },
+                {
+                  "name": "Post final slicing interval"
+                },
+                {
+                  "name": "Post final slicing interval unit"
+                },
+                {
+                  "name": "Permeabilisation time"
+                },
+                {
+                  "name": "Permeabilisation time unit"
+                }
+              ]
+            },
+            {
+              "name": "Read group",
+              "children": [
+                {
+                  "name": "Experiment name"
+                },
+                {
+                  "name": "Is paired end"
+                },
+                {
+                  "name": "Library name"
+                },
+                {
+                  "name": "Library selection method"
+                },
+                {
+                  "name": "Library strategy"
+                },
+                {
+                  "name": "platform"
+                },
+                {
+                  "name": "Read group name"
+                },
+                {
+                  "name": "Read length"
+                },
+                {
+                  "name": "Sequencing centre"
+                },
+                {
+                  "name": "Target capture kit"
+                },
+                {
+                  "name": "Adapter name"
+                },
+                {
+                  "name": "Adapter sequence"
+                },
+                {
+                  "name": "Base caller name"
+                },
+                {
+                  "name": "Base caller version"
+                },
+                {
+                  "name": "ChIPseq antibody"
+                },
+                {
+                  "name": "ChIPseq target"
+                },
+                {
+                  "name": "Days to sequencing"
+                },
+                {
+                  "name": "Flow cell barcode"
+                },
+                {
+                  "name": "Maximum fragment length"
+                },
+                {
+                  "name": "Mean fragment length"
+                },
+                {
+                  "name": "Minimum fragment length"
+                },
+                {
+                  "name": "Standard deviation of fragment length"
+                },
+                {
+                  "name": "Fragmentation enzyme"
+                },
+                {
+                  "name": "Includes spike-in"
+                },
+                {
+                  "name": "Instrument model"
+                },
+                {
+                  "name": "Lane number"
+                },
+                {
+                  "name": "Library preparation catalogue number"
+                },
+                {
+                  "name": "Library preparation kit name"
+                },
+                {
+                  "name": "Library preparation kit vendor"
+                },
+                {
+                  "name": "Library preparation kit version"
+                },
+                {
+                  "name": "Library stranded-ness."
+                },
+                {
+                  "name": "Multiplex barcode"
+                },
+                {
+                  "name": "Expected number of cells"
+                },
+                {
+                  "name": "RNA integrity number"
+                },
+                {
+                  "name": "Date of sequencing"
+                },
+                {
+                  "name": "Single cell library"
+                },
+                {
+                  "name": "Range of size selection"
+                },
+                {
+                  "name": "Spike-in concentration"
+                },
+                {
+                  "name": "Name of FASTA file that contains spike-in sequence"
+                },
+                {
+                  "name": "To trim adapter sequence"
+                }
+              ]
+            },
+            {
+              "name": "Portion",
+              "children": [
+                {
+                  "name": "Creation datetime"
+                },
+                {
+                  "name": "Portion number"
+                }
+              ]
+            },
+            {
+              "name": "Analyte",
+              "children": [
+                {
+                  "name": "Analyte type"
+                },
+                {
+                  "name": "A260/A280 ratio"
+                },
+                {
+                  "name": "Amount of specimen"
+                },
+                {
+                  "name": "Analyte quantity"
+                },
+                {
+                  "name": "Analyte volume"
+                },
+                {
+                  "name": "Analyte concentration"
+                },
+                {
+                  "name": "Experimental protocol type"
+                },
+                {
+                  "name": "Normal tumor genotype snp match"
+                },
+                {
+                  "name": "28s:16s ratio"
+                },
+                {
+                  "name": "Spectrophotometer method"
+                },
+                {
+                  "name": "Well number"
+                }
+              ]
+            },
+            {
+              "name": "Aliquot",
+              "children": [
+                {
+                  "name": "Aliquot quantity"
+                },
+                {
+                  "name": "Aliquot volume"
+                },
+                {
+                  "name": "Amount of aliquot"
+                },
+                {
+                  "name": "Analyte type"
+                },
+                {
+                  "name": "Concentration of analyte"
+                },
+                {
+                  "name": "No matched normal low pass wgs"
+                },
+                {
+                  "name": "No matched normal target sequencing"
+                },
+                {
+                  "name": "No matched normal wgs"
+                },
+                {
+                  "name": "No matched normal wxs"
+                },
+                {
+                  "name": "Selected normal low pass wgs"
+                },
+                {
+                  "name": "Selected normal targeted sequencing"
+                },
+                {
+                  "name": "Selected normal wgs"
+                },
+                {
+                  "name": "Selected normal wxs"
+                }
+              ]
             }
           ]
         }
